@@ -6,5 +6,19 @@
   "license": "MIT",
   "peerDependencies": {
     "isomorphic-unfetch": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bnbturki/jwks-js.git"
+  },
+  "keywords": [
+    "jwks",
+    "jwt",
+    "rsa",
+    "ecdsa"
+  ],
+  "bugs": {
+    "url": "https://gitlab.com/bnbturki/jwks-js/issues"
+  },
+  "homepage": "https://gitlab.com/bnbturki/jwks-js"
 }
