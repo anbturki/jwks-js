@@ -1,0 +1,10 @@
+{
+  "name": "jwks-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Barakat Turki <barakat.turki@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
