@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/bnbturki/jwks-js.git"
+    "url": "git+https://github.com/bnbturki/jwks-js.git"
   },
   "keywords": [
     "jwks",
@@ -18,7 +18,7 @@
     "ecdsa"
   ],
   "bugs": {
-    "url": "https://gitlab.com/bnbturki/jwks-js/issues"
+    "url": "https://github.com/bnbturki/jwks-js/issues"
   },
-  "homepage": "https://gitlab.com/bnbturki/jwks-js"
+  "homepage": "https://github.com/bnbturki/jwks-js"
 }

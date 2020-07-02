@@ -3,7 +3,7 @@
 ## Usage Example
 
 ```js
-import JwkClient from "JwkClient";
+import JwkClient from "jwks-js";
 import jwt from "jsonwebtoken";
 
 const oAuthDomain = process.env.AUTH_DOMAIN;
@@ -13,11 +13,11 @@ const client = new JwkClient(url);
 function getKey(header, callback) {
   client
     .getSigningKey(header.kid)
-    .then(key => {
+    .then((key) => {
       const signingKey = key.publicKey || key.rsaPublicKey;
       callback(null, signingKey);
     })
-    .catch(error => {
+    .catch((error) => {
       callback(error, null);
     });
 }
@@ -28,12 +28,10 @@ function verifyToken(token) {
     return Promise.reject("token undefined");
   }
   return new Promise((resolve, reject) => {
-    jwt.verify(token, getKey, function(err, decoded) {
+    jwt.verify(token, getKey, function (err, decoded) {
       if (err) return reject(err);
       return resolve(decoded);
     });
   });
 }
-
-
 ```
