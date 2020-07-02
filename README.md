@@ -1,4 +1,4 @@
-# JwkClient
+# jwks-js
 
 ## Usage Example
 

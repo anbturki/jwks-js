@@ -1,5 +1,5 @@
 import fetch from "isomorphic-unfetch";
-export default class JwkClien {
+export default class JwkClient {
   constructor(jwksUri) {
     this.jwksUri = jwksUri;
   }
